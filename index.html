@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notifications Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <button id="dark_mode"class="dark_mode"><i class="fa-solid fa-moon"></i> <span>Switch to dark mode</span></button>
+        <button id="light_mode" class="light_mode"><i class="fa-solid fa-sun"></i> <span>Switch to light mode</span> </button>
+    </header>
+    <section class="main">
+
+        <div class="notification">
+            <h3 id="noti">Notifications <span id="contador"class="number"></span></h3>
+            <p>Mark all as Read</p>
+        </div>
+
+        <div class="post">
+            <img src="./css/Image/avatar-mark-webber.webp" alt="">
+            <div class="card">
+            <p><span class="nombre">Mark Weber</span>reacted to your recent post <span class="texto">My first tournament today!</span></p>
+            <p class="date">1 year Ago</p>
+            </div>
+        </div>
+
+
+        <div class="post">
+            <img src="./css/Image/avatar-angela-gray.webp" alt="">
+            <div class="card">
+            <p><span class="nombre">Angela Gray</span>Followed you</p>
+            <p class="date">5m ago</p>
+            </div>
+        </div>
+
+        <div class="post">
+            <img src="./css/Image/avatar-jacob-thompson.webp" alt="">
+            <div class="card">
+                <p><span class="nombre">Jacob Thompson</span>Has joined your group <span class="group">Chess Club</span>
+                <p class="date">1 day ago</p>
+            </div>
+        </div>
+
+        <div class="post-read">
+            <img src="./css/Image/avatar-rizky-hasanuddin.webp" alt="">
+            <div class="card">
+                <div class="card-content">
+                    <p><span class="nombre">Rizky Hasanuddin</span>Sent you a private message</p>
+                    <p class="date">5 days ago</p>
+                    <div class="mesage">
+                        <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already
+                            having lots of fun and improving my game</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="post-read">
+            <img src="./css/Image/avatar-kimberly-smith.webp" alt="">
+            <div class="card-post">
+                <div class="text-container">
+                <p><span class="nombre">kimberly smith</span>Scommented on your picture</p>
+                <p class="date">1 week Ago</p>
+                </div>
+                <img class="chess" src="./css/Image/image-chess.webp" alt="">
+            </div>
+        </div>
+
+
+        <div class="post-read">
+            <img src="./css/Image/avatar-nathan-peterson.webp" alt="">
+            <div class="card">
+                <p><span class="nombre">Nathan Peterson</span>reacted to your recent post <span class="texto">5 end game-strategies to encrease your win rate</span></p>
+                <p class="date">two weeks Ago</p>
+            </div>
+        </div>
+
+        <div class="post-read">
+            <img src="./css/Image/avatar-anna-kim.webp" alt="">
+            <div class="card">
+                <p><span class="nombre">Anna Kim</span>Left the group <span class="group">Chess Club</span>
+                <p class="date">Two weeks ago</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h3>Proyecto hecho por Laura Montironi octubre 2025</h3>
+            <div class="iconos">
+            <a href="www.linkedin.com/in/laura-montironi"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/LauMontironi"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
